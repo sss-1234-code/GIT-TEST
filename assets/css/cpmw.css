@@ -1,0 +1,251 @@
+
+
+.cpmw_loader {
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 1rem !important;
+    font-family: Arial,Helvetica,sans-serif;
+    background: #edeef2;
+    border-radius: 16px;
+    padding: 15px;
+}
+
+.cpmw_loader > div {
+    width: 100px !important;
+    margin: 0 auto !important;
+}
+
+.cpmw_check {
+    width: 100% !important;
+    text-align: center !important;
+    display: none;
+}
+
+.cpmw_check img {
+    margin: 0 auto !important;
+    width: 100px !important;
+}
+
+.cpmw_payment_details {
+    width: 100% !important;
+    text-align: center !important;
+}
+
+.cpmw_payment_details .cpmw_qrcode_wrapper {
+    text-align: center !important;
+    margin: 1em auto !important;
+    position: relative !important;
+    display: inline-block !important;
+}
+
+.cpmw_payment_details .cpmw_qrcode_wrapper img {
+    display: inline-block !important;
+    border: 1px #686868 solid;
+    border-radius: 0.4em;
+    padding: 0.2em;
+    background: #fff;
+}
+
+.cpmw_payment_details .cpmw_qrcode_wrapper .cpmw_inner-wrapper {
+    z-index: 3 !important;
+    position: relative !important;
+}
+
+.cpmw_payment_details .cpmw_qrcode_wrapper .cpmw_branding {
+    font-size: 11px;
+    font-family: "roboto", sans-serif;
+    color: #666;
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+    background: #ddd;
+    padding: 20px 5px 2px 5px;
+    border-radius: 0.4em;
+    z-index: 2;
+    border: 1px #777 solid;
+}
+
+
+
+.cpmw_payment_details .cpmw_details_box {
+    width: 100%;
+   
+    text-align: center;
+}
+
+.cpmw_payment_pending {
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.cpmw_payment_complete {
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+.cpmw_order_expired {
+        width: 100%;
+    text-align: center;
+    display: none;
+}
+
+
+/*payment field css*/
+.cpmw-pymentfield {
+    display: inline-grid;
+    padding: 5px;
+    text-align: center;
+}
+.cpmw-pymentfield img {
+    left: 3%;
+    display: block;
+    top: 3px;
+}
+.cpmw-pymentfield input#cpmw_payment_method,  .cpmw-pymentfield img {
+    margin: 0 auto !important;
+}
+
+.cpmw_payment_details .cpmw_qrcode_wrapper span.cpmw_banner img {
+    border: none !important;
+    height: 35px;
+}
+.cpmw_payment_details .cpmw_qrcode_wrapper span.cpmw_banner {
+    display: inline-flex;
+}
+.cpmw_payment_details .cpmw_qrcode_wrapper span.cpmw_banner h2 {
+    margin-bottom: 0px;
+}
+
+
+/*metamask connect*/
+
+.cmpw_meta_connect {
+   display: none;
+   margin-left: 30%;
+    
+}
+.wallet-name {
+    margin-left: 8%;
+    font-size: 30px;
+}
+.cpmw_connect_btn {
+    margin-left: 4%;
+}
+.cpmw_connect_btn button.confirm-btn {
+    font-family: Arial,Helvetica,sans-serif;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    display: inline-block;
+    background: #a570b7;
+    border-radius: 8px;
+    padding: 4px 8px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.cmpw_meta_wrapper .container button.confirm-btn {
+    font-family: Arial,Helvetica,sans-serif;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    display: inline-block;
+    background: #a570b7;
+    border-radius: 8px;
+    padding: 4px 8px;
+    font-size: 20px;
+    min-width: 63%;
+    color: #fff;
+}
+
+.cpmw_loader_wrap{
+    display: none;
+    justify-content: center;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.cmpw_meta_wrapper{
+    display: none;
+    justify-content: center;
+    max-width: 450px;
+    margin: 0 auto;
+}
+.cmpw_meta_wrapper .container .cpmw-info:first-child {
+margin-right: 30px;
+}
+.cmpw_meta_wrapper .container .cpmw-info {
+    max-width: 200px;
+    float: left;
+    margin-left: 10px;
+}
+
+.cmpw_meta_wrapper .container {
+    display: inline-block;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: Arial,Helvetica,sans-serif;
+    background: #edeef2;
+    border-radius: 16px;
+}
+
+.cmpw_meta_wrapper .container .cpmw-info>div span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.cmpw_meta_wrapper .container .cpmw-info>div {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.cmpw_meta_wrapper .container .cpmw-info>div .account-address{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.cmpw_meta_wrapper .container .disconnect-btn-wrapper, .cmpw_meta_wrapper .container .pay-btn-wrapper {
+    text-align: center;
+}
+
+.cmpw_meta_wrapper .container  .cpmw-pay-wallet-icon {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+li.wc_payment_method.payment_method_cpmw img {
+    height: 20px;
+}
+
+.cmpw_meta_wrapper .container button.confirm-btn [disabled="disbaled"] {
+   
+    background: #a570b7a8;
+  
+}
+
+.cpmw_loader_wrap .cpmw_payment_sucess{
+    color: green;
+
+}
+.cpmw_loader_wrap .cpmw_payment_rejected{
+ color: red;
+}
+
+.swal2-footer p.cpmw_transaction_note{
+    color: red;
+    font-size: 14px;
+    margin-bottom: 0;
+
+}
+
+.cmpw_meta_wrapper .container .cpmw-pay-wallet-icon img,.cpmw_loader_wrap img ,.swal-icon.swal-icon--custom img{
+    display: inline;
+}
+.cpmw-pymentfield input.input-radio {
+    display: block;
+}
